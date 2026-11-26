@@ -314,10 +314,7 @@ Example manual phase request:
 
 ## Limitations and Future Improvements
 
-- No prerecorded intersection video is included. Camera positioning, stop-line locations, lane counts, and physical dimensions have not yet been calibrated.
-- Camera calibration using surveyed ground points and perspective transformation can improve vehicle direction assignment.
-- The system does not currently track vehicles or measure actual queue lengths and individual waiting times.
-- Stop-line occupancy and vehicle discharge tracking are not implemented. Gap-out and discharge-based green extensions are future improvements.
+- Vehicle direction assignment is not fully reliable yet because camera positioning and stop-line locations have not been calibrated
 - The current SUMO network is not mapped to real camera coordinates.
 - Traffic history is stored in memory and is lost when the backend stops.
 - User authentication is not currently implemented.
@@ -326,7 +323,7 @@ Example manual phase request:
 
 Future improvements include camera calibration, vehicle tracking, database integration, user authentication, and support for emergency vehicles and pedestrians.
 
-## Project Screenshots
+## Hardware images
 
 <p align="center">
   <img src="images/img1.jpeg" width="46%" alt="ESP32 and LED wiring" />
